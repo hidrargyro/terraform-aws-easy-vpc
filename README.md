@@ -135,10 +135,11 @@ available are:
 
 For `ingress` and `egress` parameters, you can configure the following options:
 
-a. `fromPort`  : Initial port of the range of the allowed ports
-b. `toPort`    : Final port of the range of the allowed ports
-c. `protocol`  : Protocol of the traffic to allow communication **-1** for all the Protocols
-d. `cidrBlock` : Block of IPs allowed
+* Options
+  * `fromPort`  : Initial port of the range of the allowed ports
+  * `toPort`    : Final port of the range of the allowed ports
+  * `protocol`  : Protocol of the traffic to allow communication **-1** for all the Protocols
+  * `cidrBlock` : Block of IPs allowed
 
 
 * Example:
